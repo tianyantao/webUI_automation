@@ -1,0 +1,106 @@
+2017-07-06 17:21:55 run.py[line:13] INFO 待执行测试用例集为：[u'testcases.teacher']
+2017-07-06 17:21:57 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session {"capabilities": {"alwaysMatch": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}, "firstMatch": []}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+2017-07-06 17:21:58 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:21:58 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/window/current/maximize {"windowHandle": "current", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f"}
+2017-07-06 17:22:00 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:00 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/url {"url": "http://teacher.233.mistong.com", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f"}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element {"using": "name", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "value": "username"}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element/0.4088458475595833-1/clear {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "id": "0.4088458475595833-1"}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 basepage.py[line:23] INFO 输入 teacher061201, 并按下TAB键
+2017-07-06 17:22:02 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element/0.4088458475595833-1/value {"text": "teacher061201", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "id": "0.4088458475595833-1", "value": ["t", "e", "a", "c", "h", "e", "r", "0", "6", "1", "2", "0", "1"]}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element/0.4088458475595833-1/value {"text": "\ue004", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "id": "0.4088458475595833-1", "value": ["\ue004"]}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element {"using": "name", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "value": "password"}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element/0.4088458475595833-2/clear {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "id": "0.4088458475595833-2"}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 basepage.py[line:32] INFO 输入 123456, 并按下ENTER键
+2017-07-06 17:22:02 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element/0.4088458475595833-2/value {"text": "123456", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "id": "0.4088458475595833-2", "value": ["1", "2", "3", "4", "5", "6"]}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element/0.4088458475595833-2/value {"text": "\ue007", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "id": "0.4088458475595833-2", "value": ["\ue007"]}
+2017-07-06 17:22:02 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:02 basepage.py[line:43] INFO 登录成功, username: teacher061201, password: 123456
+2017-07-06 17:22:06 basepage.py[line:15] INFO 缓慢滑动当前页面1.5s
+2017-07-06 17:22:06 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:06 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:06 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:06 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:06 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:06 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:06 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:06 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:06 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:07 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:07 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/execute {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "args": [], "script": "document.body.scrollTop+=10"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element {"using": "xpath", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "value": "//li[@class=\"iconfont003\"]"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/moveto {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "element": "0.5993058894489836-1"}
+2017-07-06 17:22:08 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:08 basepage.py[line:52] INFO 鼠标移动到<selenium.webdriver.remote.webelement.WebElement (session="8c58bf75391d9e33e3bdcd8d675b168f", element="0.5993058894489836-1")>元素
+2017-07-06 17:22:09 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element {"using": "xpath", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "value": "//a[@href=\"/teacher/homework/videoassignment\"]"}
+2017-07-06 17:22:09 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:09 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element/0.5993058894489836-2/click {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "id": "0.5993058894489836-2"}
+2017-07-06 17:22:09 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:09 teacherpage.py[line:28] INFO 进入视频作业页面
+2017-07-06 17:22:11 remote_connection.py[line:478] DEBUG POST http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/element {"using": "xpath", "sessionId": "8c58bf75391d9e33e3bdcd8d675b168f", "value": "//*[text()=\"\u8bf7\u9009\u62e9\u79d1\u76ee\"]"}
+2017-07-06 17:22:11 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:11 teacher.py[line:29] INFO 断言成功
+2017-07-06 17:22:13 remote_connection.py[line:478] DEBUG DELETE http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f/window {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f"}
+2017-07-06 17:22:13 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:13 remote_connection.py[line:478] DEBUG DELETE http://127.0.0.1:56464/session/8c58bf75391d9e33e3bdcd8d675b168f {"sessionId": "8c58bf75391d9e33e3bdcd8d675b168f"}
+2017-07-06 17:22:13 remote_connection.py[line:565] DEBUG Finished Request
+2017-07-06 17:22:19 sendmail.py[line:33] INFO The new report name: result20170706172155.html
+2017-07-06 17:22:22 sendmail.py[line:63] INFO 发送邮件成功
